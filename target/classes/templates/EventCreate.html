@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xlmns:th="http://www.thymeleaf.org"
+      xmlns:xlmns="http://www.w3.org/1999/xhtml">
+
+<nav>
+</nav>
+
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" href="../static/css/style.css" th:href="@{static/css/style.css}" rel="stylesheet"
+          title="Default Styles" media="screen">
+    <title>create</title>
+</head>
+<body>
+
+
+    <form method="POST" th:action="@{/event/create}">
+        <input type="hidden" th:field=" ${Event.eventID}"/></br>
+        <p>Indtast Dato</p>
+        <input   type="date" th:field="${Event.dato}"   />
+        <p>Indtast tidspunkt</p>
+        <input   type="text"   th:field="${Event.tid}"/>
+        <p>Indtast møde beskrivelse</p>
+        <input type="text" th:field="${Event.beskrivelse}"/>
+
+        <p>Indtast møde pladser</p>
+        <input   type="text"   th:field="${Event.pladser}"/>
+
+        <input   type="submit"   value="Send"   />
+    </form>
+
+</body>
+</html>

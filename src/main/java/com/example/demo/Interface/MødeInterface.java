@@ -4,7 +4,7 @@ import com.example.demo.Models.Event;
 
 import java.util.List;
 
-public interface EventInterface {
+public interface MødeInterface {
     Event get(int id);
     List<Event> get();
     void create(Event ev);

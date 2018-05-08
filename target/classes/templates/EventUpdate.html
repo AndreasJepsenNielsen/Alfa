@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xlmns:th="http://www.thymeleaf.org"
+      xmlns:xlmns="http://www.w3.org/1999/xhtml">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet"
+          title="Default Styles" media="screen">
+    <title>update</title>
+</head>
+<div class="container">
+    <body>
+    <form method="Post" th:action="@{/event/update}">
+        <input type="hidden" th:field="${Event.eventID}"><br>
+        <p>Indtast dato</p>
+
+        <input   type="date"   th:field="${Event.dato}"/>
+        <p>Indtast tid</p>
+        <input   type="text"   th:field="${Event.tid}"/>
+        <p>Indtast beskrivelse</p>
+        <input   type="text"   th:field="${Event.beskrivelse}"/>
+        <p>Indtast pladser</p>
+        <input   type="text"   th:field="${Event.pladser}"/>
+        <input   type="submit"   value="Send"   />
+    </form>
+    </body>
+</div>
+</html>

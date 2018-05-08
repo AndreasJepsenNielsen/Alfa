@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xlmns:th="http://www.thymeleaf.org"
+      xmlns:xlmns="http://www.w3.org/1999/xhtml">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet"
+          title="Default Styles" media="screen">
+    <title>details</title>
+</head>
+
+    <body>
+    <h1>Details</h1>
+    <p th:text="'dato: ' + ${Event.dato}"/>
+    <p th:text="'tid: ' + ${Event.tid}"/>
+    <p th:text="'beskrivelse: ' + ${Event.beskrivelse}"/>
+    <p th:text="'pladser: ' + ${Event.pladser}"/>
+
+
+    </body>
+
+</html>

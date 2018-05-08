@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xlmns:th="http://www.thymeleaf.org"
+      xmlns:xlmns="http://www.w3.org/1999/xhtml">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <link type="text/css" href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet"
+          title="Default Styles" media="screen">
+    <title>Title</title>
+
+</head>
+<body>
+
+    <table>
+
+        <thead>
+        <tr>
+            <th>IDioti</th>
+            <th>Dato</th>
+            <th>Tid</th>
+            <th>Beskrivelse</th>
+            <th>Pladser</th>
+
+        </tr>
+        </thead>
+        <tbody>
+            <tr th:each="Event : ${Events}">
+                <td th:text="${Event.dato}"></td>
+                <td th:text="${Event.tid}"></td>
+                <td th:text="${Event.beskrivelse}"></td>
+                <td th:text="${Event.pladser}"></td>
+             </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
