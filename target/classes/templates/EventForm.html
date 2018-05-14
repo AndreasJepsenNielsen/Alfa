@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Tilmeldings form</title>
+</head>
+<body>
+<form method="POST" th:action="@{/event/add}">
+    <input type="hidden" th:field=" ${Relative.relatedID}"/></br>
+    <p>Indtast Fornavn</p>
+    <input   type="text" th:field="${Relative.firstName}"   />
+    <p>Indtast Efternavn</p>
+    <input   type="text"   th:field="${Relative.lastName}"/>
+    <p>Indtast Telefonnummer</p>
+    <input type="text" th:field="${Relative.phoneNumber}"/>
+    <p>Indtast Email</p>
+    <input   type="text"   th:field="${Relative.email}"/><br>
+
+    <input   type="submit"   value="Tilmeld"   />
+</form>
+
+</body>
+</html>

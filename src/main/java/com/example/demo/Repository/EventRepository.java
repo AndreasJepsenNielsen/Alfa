@@ -1,6 +1,6 @@
 package com.example.demo.Repository;
 
-import com.example.demo.Interface.MødeInterface;
+import com.example.demo.Interface.EventInterface;
 import com.example.demo.Models.Event;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
@@ -11,16 +11,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class EventRepository implements MødeInterface {
+public class EventRepository implements EventInterface {
     @Autowired
     private JdbcTemplate jdbc;
 
     @Override
-    public Event get(int id) {
-        String sql = "select * from Møder where mødeID = " + id;
-
+    public Event getSpecific(int id) {
+        String sql = "select * from v_event where eventID = " + id + ";";
+        System.out.println(sql);
+        System.out.println("Get rowset");
         SqlRowSet rs = jdbc.queryForRowSet(sql);
-
+        System.out.println("Finish yo");
         rs.next();
 
         Event ev = new Event(rs.getInt(1), rs.getDate(2), rs.getString(3), rs.getString(4), rs.getInt(5));
@@ -30,16 +31,16 @@ public class EventRepository implements MødeInterface {
 
     @Override
     public void delete(Event ev) {
-        String sql = "Delete from Møder where mødeID =" + ev.geteventID();
+        String sql = "Delete from EventTable where eventID =" + ev.geteventID();
 
         jdbc.update(sql);
     }
 
     @Override
-    public List<Event> get() {
+    public List<Event> getList() {
 
         List<Event> events = new ArrayList<>();
-        String sql = "select * from Møder";
+        String sql = "select * from EventTable";
 
         SqlRowSet rs = jdbc.queryForRowSet(sql);
 
@@ -53,23 +54,23 @@ public class EventRepository implements MødeInterface {
 
     @Override
     public void update(Event ev) {
-        String sql = "Update Møder set " +
-                "dato='" + ev.getDateString() + "', " +
-                "tid='" + ev.getTid() + "', " +
-                "beskrivelse='" + ev.getBeskrivelse() + "', " +
-                "pladser=" + ev.getPladser() + " WHERE mødeID = " + ev.geteventID() + ";";
+        String sql = "Update EventTable set " +
+                "eventDate='" + ev.getDateString() + "', " +
+                "eventTime='" + ev.getTime() + "', " +
+                "description='" + ev.getDescription() + "', " +
+                "slots=" + ev.getSlots() + " WHERE eventID = " + ev.geteventID() + ";";
         System.out.println(sql);
         jdbc.update(sql);
     }
 
     @Override
     public void create(Event ev) {
-        String sql = "insert into Møder(dato,tid,beskrivelse,pladser) " +
+        String sql = "insert into EventTable(eventDate,eventTime,description,slots) " +
                 "values('" +
                 ev.getDateString() + "', '" +
-                ev.getTid() + "', '" +
-                ev.getBeskrivelse() + "', " +
-                ev.getPladser() + ")";
+                ev.getTime() + "', '" +
+                ev.getDescription() + "', " +
+                ev.getSlots() + ")";
 
 
         System.out.println(sql);
@@ -79,6 +80,12 @@ public class EventRepository implements MødeInterface {
 
     }
 
+
+    public boolean searchEvent(int evId) {
+        return jdbc.queryForRowSet("SELECT * FROM Event WHERE eventID =" + evId) == null ? false: true;
+
+        //short hand if statement
+    }
 
 
 }

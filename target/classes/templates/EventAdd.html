@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xlmns:th="http://www.thymeleaf.org"
+      xmlns:xlmns="http://www.w3.org/1999/xhtml">
+
+<nav>
+</nav>
+
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" href="../static/css/style.css" th:href="@{static/css/style.css}" rel="stylesheet"
+          title="Default Styles" media="screen">
+    <title>create</title>
+</head>
+<body>
+
+
+<form method="POST" th:action="@{/event/create}">
+    <p>Indtast mødeID</p>
+
+
+    <input   type="submit"   value="Send"   />
+</form>
+
+</body>
+</html>

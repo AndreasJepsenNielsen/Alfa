@@ -9,17 +9,17 @@ import java.util.Date;
 public class Event {
     private int eventID;
     @DateTimeFormat(pattern = "yyyy-MM-dd")
-    private Date dato;
-    private String tid;
-    private String beskrivelse;
-    private int pladser;
+    private Date date;
+    private String time;
+    private String description;
+    private int slots;
 
-    public Event(int eventID, Date dato, String tid, String beskrivelse, int pladser) {
+    public Event(int eventID, Date date, String time, String description, int slots) {
         this.eventID = eventID;
-        this.dato = dato;
-        this.tid = tid;
-        this.beskrivelse = beskrivelse;
-        this.pladser = pladser;
+        this.date = date;
+        this.time = time;
+        this.description = description;
+        this.slots = slots;
     }
 
     public Event()
@@ -38,42 +38,42 @@ public class Event {
 
 
 
-    public Date getDato() {
-        return dato;
+    public Date getDate() {
+        return date;
     }
 
-    public void setDato(Date dato) {
-        this.dato = dato;
+    public void setDate(Date date) {
+        this.date = date;
     }
 
-    public String getTid() {
-        return tid;
+    public String getTime() {
+        return time;
     }
 
-    public void setTid(String tid) {
-        this.tid = tid;
+    public void setTime(String time) {
+        this.time = time;
     }
 
-    public String getBeskrivelse() {
-        return beskrivelse;
+    public String getDescription() {
+        return description;
     }
 
-    public void setBeskrivelse(String beskrivelse) {
-        this.beskrivelse = beskrivelse;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
-    public int getPladser() {
-        return pladser;
+    public int getSlots() {
+        return slots;
     }
 
-    public void setPladser(int pladser) {
-        this.pladser = pladser;
+    public void setSlots(int slots) {
+        this.slots = slots;
     }
 
     public String getDateString()
     {
         DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
 
-        return formatter.format(this.dato);
+        return formatter.format(this.date);
     }
 }

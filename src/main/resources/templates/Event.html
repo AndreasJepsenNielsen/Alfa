@@ -18,7 +18,6 @@
 
         <thead>
         <tr>
-            <th>IDioti</th>
             <th>Dato</th>
             <th>Tid</th>
             <th>Beskrivelse</th>
@@ -28,10 +27,10 @@
         </thead>
         <tbody>
             <tr th:each="Event : ${Events}">
-                <td th:text="${Event.dato}"></td>
-                <td th:text="${Event.tid}"></td>
-                <td th:text="${Event.beskrivelse}"></td>
-                <td th:text="${Event.pladser}"></td>
+                <td th:text="${Event.date}"></td>
+                <td th:text="${Event.time}"></td>
+                <td th:text="${Event.description}"></td>
+                <td th:text="${Event.slots}"></td>
              </tr>
         </tbody>
     </table>

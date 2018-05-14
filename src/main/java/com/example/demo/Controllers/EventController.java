@@ -11,22 +11,28 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.annotation.Resource;
+
 @Controller
 public class EventController {
     @Autowired
-    EventRepository eventRepository = new EventRepository();
+    private EventRepository eventRepository = new EventRepository();
 
     @GetMapping("/event")
-    public String Event(Model model){
-        model.addAttribute("Events", eventRepository.get());
+    public String getEvent(Model model){
+        model.addAttribute("Events", eventRepository.getList());
         return "Event";
     }
 
     @GetMapping("/event/details")
-    public String details(@RequestParam("id") int id, Model model)
+    public String getDetails(@RequestParam("id") int id, Model model)
     {
-        model.addAttribute("Event", eventRepository.get(id));
+        model.addAttribute("Event", eventRepository.getSpecific(id));
         return "EventRead";
+    }
+
+    Event getDetails (int id) {
+        return eventRepository.getSpecific(id);
     }
 
 
@@ -49,7 +55,7 @@ public class EventController {
 
     @GetMapping("event/delete")
     public String delete(@RequestParam("id") int id, Model model) {
-        model.addAttribute("Event",eventRepository.get(id));
+        model.addAttribute("Event",eventRepository.getSpecific(id));
         return "EventDelete";
     }
 
@@ -63,7 +69,7 @@ public class EventController {
     @GetMapping("event/update")
     public String update(@RequestParam("id") int id, Model model) {
 
-        model.addAttribute("Event", eventRepository.get(id));
+        model.addAttribute("Event", eventRepository.getSpecific(id));
 
         return "EventUpdate";
     }
@@ -73,6 +79,15 @@ public class EventController {
         eventRepository.update(ev);
         return "redirect:/event";
     }
+
+    Event getEvent(Event event){
+
+
+        return event;
+    }
+
+
+
 
 
 

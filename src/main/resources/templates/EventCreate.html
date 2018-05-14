@@ -18,14 +18,14 @@
     <form method="POST" th:action="@{/event/create}">
         <input type="hidden" th:field=" ${Event.eventID}"/></br>
         <p>Indtast Dato</p>
-        <input   type="date" th:field="${Event.dato}"   />
+        <input   type="date" th:field="${Event.date}"   />
         <p>Indtast tidspunkt</p>
-        <input   type="text"   th:field="${Event.tid}"/>
+        <input   type="text"   th:field="${Event.time}"/>
         <p>Indtast møde beskrivelse</p>
-        <input type="text" th:field="${Event.beskrivelse}"/>
+        <input type="text" th:field="${Event.description}"/>
 
         <p>Indtast møde pladser</p>
-        <input   type="text"   th:field="${Event.pladser}"/>
+        <input   type="text"   th:field="${Event.slots}"/>
 
         <input   type="submit"   value="Send"   />
     </form>
