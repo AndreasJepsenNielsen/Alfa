@@ -38,7 +38,7 @@ public class RelativeEventsController {
 
     //Metode tilføjer dataen som er indskrevet i ovenstående metode til databasen
     @PostMapping("/event/add")
-    public String update(@ModelAttribute Relative rv){
+    public String addToDb(@ModelAttribute Relative rv){
         System.out.println(viewContainer.getEvent());
         System.out.println(rv);
         Relative r = relativeController.relativeRepository.createNewRelative(rv);

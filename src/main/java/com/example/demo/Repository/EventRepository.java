@@ -37,7 +37,9 @@ public class EventRepository implements EventInterface {
     @Override
     public void delete(Event ev) {
         String sql = "Delete from EventTable where eventID =" + ev.geteventID();
+        String sql2 = "Delete from RelativeEvent where eventID=" + ev.geteventID();
 
+        jdbc.update(sql2);
         jdbc.update(sql);
     }
 

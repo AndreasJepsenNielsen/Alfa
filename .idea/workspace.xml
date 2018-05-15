@@ -2,26 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98fdfc3d-0dcc-4b95-a161-d269dd5d0ded" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/style.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/EventController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/EventController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/RelativeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/RelativeController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/RelativeEventsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/RelativeEventsController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Interface/EventInterface.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Interface/EventInterface.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Models/Event.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Models/Event.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Models/Relative.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Models/Relative.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Models/ViewPlaceholder.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Models/ViewContainer.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Repository/EventRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Repository/EventRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Repository/RelativeEventsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Repository/RelativeEventsRepository.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Repository/RelativeRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Repository/RelativeRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Event.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/Event.html" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/EventDelete.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/EventDelete.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Controllers/EventController.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Controllers/EventController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Controllers/RelativeController.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Controllers/RelativeController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Controllers/RelativeEventsController.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Controllers/RelativeEventsController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Models/Event.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Models/Event.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Models/Relative.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Models/Relative.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Models/ViewPlaceholder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Models/ViewContainer.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Models/ViewContainer.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Repository/EventRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Repository/EventRepository.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Repository/RelativeEventsRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Repository/RelativeEventsRepository.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Repository/RelativeRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Repository/RelativeRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/Event.html" afterPath="$PROJECT_DIR$/target/classes/templates/Event.html" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +37,8 @@
       <file leaf-file-name="Event.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Models/Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-397">
-              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="-150">
+              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding>
                 <element signature="e#1218#1219#0" expanded="true" />
                 <element signature="e#1248#1249#0" expanded="true" />
@@ -52,8 +50,8 @@
       <file leaf-file-name="EventController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/EventController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="74" column="42" lean-forward="true" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+            <state relative-caret-position="191">
+              <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1368#1369#0" expanded="true" />
@@ -63,18 +61,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RelativeRepository.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EventDelete.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/EventDelete.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RelativeRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Repository/RelativeRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-175">
-              <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            <state relative-caret-position="495">
+              <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1526371611226" expanded="true" signature="837:879" ph="select * fro... Pårørende" />
-                <marker date="1526371611226" expanded="true" signature="1013:1055" ph="SELECT * FRO... Pårørende" />
-                <marker date="1526371611226" expanded="true" signature="1295:1490" ph="insert into Relative... " />
-                <marker date="1526371611226" expanded="true" signature="1539:1580" ph="SELECT * FRO... Relative" />
-                <marker date="1526371611226" expanded="true" signature="1826:1867" ph="SELECT * FRO... Relative" />
+                <marker date="1526375557500" expanded="true" signature="795:837" ph="select * fro... Pårørende" />
+                <marker date="1526375557500" expanded="true" signature="971:1013" ph="SELECT * FRO... Pårørende" />
+                <marker date="1526375557500" expanded="true" signature="1253:1448" ph="insert into Relative... " />
+                <marker date="1526375557500" expanded="true" signature="1497:1538" ph="SELECT * FRO... Relative" />
+                <marker date="1526375557500" expanded="true" signature="1784:1825" ph="SELECT * FRO... Relative" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1421">
+              <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RelativeEventsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/RelativeEventsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,7 +113,7 @@
       <file leaf-file-name="RelativeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/RelativeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="348">
               <caret line="38" column="2" lean-forward="false" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -92,95 +122,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RelativeEventsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/RelativeEventsController.java">
+      <file leaf-file-name="EventUpdate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/EventUpdate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="49" column="2" lean-forward="true" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Interface/EventInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+            <state relative-caret-position="225">
+              <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RelativeEventsRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Repository/RelativeEventsRepository.java">
+      <file leaf-file-name="Event.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Event.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="84" lean-forward="false" selection-start-line="5" selection-start-column="84" selection-end-line="5" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1526371611209" expanded="true" signature="570:644" ph="insert into RelativeEvent... " />
-                <marker date="1526371611209" expanded="true" signature="570:658" ph="insert into RelativeEvent... " />
-                <marker date="1526371611209" expanded="true" signature="570:687" ph="insert into PårørendeMøder... " />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Relative.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Models/Relative.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-              <folding>
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#869#870#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewContainer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Models/ViewContainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventRepository.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EventRepository.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Repository/EventRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <state relative-caret-position="186">
+              <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1526371611279" expanded="true" signature="1169:1207" ph="select * fro... Møder" />
-                <marker date="1526371611279" expanded="true" signature="1169:1217" ph="select * fro... v_event" />
-                <marker date="1526371611279" expanded="true" signature="1742:1780" ph="Delete from Students... " />
-                <marker date="1526371611279" expanded="true" signature="2213:2227" ph="select * fro... Møder" />
-                <marker date="1526371611279" expanded="true" signature="2213:2237" ph="select * fro... EventTable" />
-                <marker date="1526371611279" expanded="true" signature="2707:2761" ph="Update Møder... " />
-                <marker date="1526371611279" expanded="true" signature="2707:2822" ph="Update Møder... " />
-                <marker date="1526371611279" expanded="true" signature="2707:2879" ph="Update Møder... " />
-                <marker date="1526371611279" expanded="true" signature="2707:2974" ph="Update Møder... " />
-                <marker date="1526371611279" expanded="true" signature="3315:3405" ph="insert into Møder... " />
-                <marker date="1526371611279" expanded="true" signature="3315:3406" ph="insert into Møder... " />
-                <marker date="1526371611279" expanded="true" signature="3315:3491" ph="insert into Møder... " />
-                <marker date="1526371611279" expanded="true" signature="3315:3538" ph="insert into Møder... " />
-                <marker date="1526371611279" expanded="true" signature="3315:3574" ph="insert into Møder... " />
-                <marker date="1526371611279" expanded="true" signature="3315:3576" ph="insert into Møder... " />
-                <marker date="1526371611279" expanded="true" signature="3767:3802" ph="SELECT * FRO... Relative" />
+                <marker date="1526385572520" expanded="true" signature="1169:1207" ph="select * fro... Møder" />
+                <marker date="1526385572520" expanded="true" signature="1169:1217" ph="select * fro... v_event" />
+                <marker date="1526385572520" expanded="true" signature="1742:1780" ph="Delete from Students... " />
+                <marker date="1526385572520" expanded="true" signature="1824:1864" ph="Delete from RelativeEvent... " />
+                <marker date="1526385572520" expanded="true" signature="2324:2338" ph="select * fro... Møder" />
+                <marker date="1526385572520" expanded="true" signature="2324:2348" ph="select * fro... EventTable" />
+                <marker date="1526385572520" expanded="true" signature="2818:2872" ph="Update Møder... " />
+                <marker date="1526385572520" expanded="true" signature="2818:2933" ph="Update Møder... " />
+                <marker date="1526385572520" expanded="true" signature="2818:2990" ph="Update Møder... " />
+                <marker date="1526385572520" expanded="true" signature="2818:3085" ph="Update Møder... " />
+                <marker date="1526385572520" expanded="true" signature="3426:3516" ph="insert into Møder... " />
+                <marker date="1526385572520" expanded="true" signature="3426:3517" ph="insert into Møder... " />
+                <marker date="1526385572520" expanded="true" signature="3426:3602" ph="insert into Møder... " />
+                <marker date="1526385572520" expanded="true" signature="3426:3649" ph="insert into Møder... " />
+                <marker date="1526385572520" expanded="true" signature="3426:3685" ph="insert into Møder... " />
+                <marker date="1526385572520" expanded="true" signature="3426:3687" ph="insert into Møder... " />
+                <marker date="1526385572520" expanded="true" signature="3878:3913" ph="SELECT * FRO... Relative" />
               </folding>
             </state>
           </provider>
@@ -192,9 +177,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -222,9 +207,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/style.css" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/styke.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Repository/MødeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Models/Møde.java" />
@@ -235,23 +218,25 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Models/Relatives.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Repository/MeetingRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/EventAdd.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/Event.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/EventCreate.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/EventUpdate.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/EventForm.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/EventRead.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Models/ViewPlaceholder.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/EventDelete.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/EventController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/RelativeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Interface/EventInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Models/Event.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Models/Relative.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Models/ViewContainer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Repository/EventRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Repository/RelativeEventsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Repository/RelativeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/RelativeEventsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Repository/RelativeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Models/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/Event.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/EventDelete.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Repository/EventRepository.java" />
       </list>
     </option>
   </component>
@@ -268,10 +253,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="83" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="15" />
     <option name="y" value="23" />
-    <option name="width" value="1165" />
+    <option name="width" value="1233" />
     <option name="height" value="717" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -292,6 +277,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -374,7 +361,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Alfa" type="b2602c69:ProjectViewProjectNode" />
@@ -388,9 +375,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -408,6 +393,11 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -532,15 +522,16 @@
       <workItem from="1526067985787" duration="570000" />
       <workItem from="1526283059159" duration="9174000" />
       <workItem from="1526296925098" duration="1322000" />
-      <workItem from="1526367549331" duration="5123000" />
+      <workItem from="1526367549331" duration="11331000" />
+      <workItem from="1526383299092" duration="2357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72301000" />
+    <option name="totallyTimeSpent" value="80866000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="83" y="23" width="1165" height="717" extended-state="1" />
+    <frame x="15" y="23" width="1233" height="717" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -559,14 +550,13 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37054265" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21201716" sideWeight="0.4885246" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20032442" sideWeight="0.4885246" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1255814" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.281114" sideWeight="0.5114754" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -575,6 +565,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1255814" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,15 +576,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/RelativeEventsController.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -653,22 +636,23 @@
           <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1526371611279" expanded="true" signature="1169:1207" ph="select * fro... Møder" />
-            <marker date="1526371611279" expanded="true" signature="1169:1217" ph="select * fro... v_event" />
-            <marker date="1526371611279" expanded="true" signature="1742:1780" ph="Delete from Students... " />
-            <marker date="1526371611279" expanded="true" signature="2213:2227" ph="select * fro... Møder" />
-            <marker date="1526371611279" expanded="true" signature="2213:2237" ph="select * fro... EventTable" />
-            <marker date="1526371611279" expanded="true" signature="2707:2761" ph="Update Møder... " />
-            <marker date="1526371611279" expanded="true" signature="2707:2822" ph="Update Møder... " />
-            <marker date="1526371611279" expanded="true" signature="2707:2879" ph="Update Møder... " />
-            <marker date="1526371611279" expanded="true" signature="2707:2974" ph="Update Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3405" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3406" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3491" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3538" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3574" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3576" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3767:3802" ph="SELECT * FRO... Relative" />
+            <marker date="1526385572520" expanded="true" signature="1169:1207" ph="select * fro... Møder" />
+            <marker date="1526385572520" expanded="true" signature="1169:1217" ph="select * fro... v_event" />
+            <marker date="1526385572520" expanded="true" signature="1742:1780" ph="Delete from Students... " />
+            <marker date="1526385572520" expanded="true" signature="1824:1864" ph="Delete from RelativeEvent... " />
+            <marker date="1526385572520" expanded="true" signature="2324:2338" ph="select * fro... Møder" />
+            <marker date="1526385572520" expanded="true" signature="2324:2348" ph="select * fro... EventTable" />
+            <marker date="1526385572520" expanded="true" signature="2818:2872" ph="Update Møder... " />
+            <marker date="1526385572520" expanded="true" signature="2818:2933" ph="Update Møder... " />
+            <marker date="1526385572520" expanded="true" signature="2818:2990" ph="Update Møder... " />
+            <marker date="1526385572520" expanded="true" signature="2818:3085" ph="Update Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3516" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3517" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3602" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3649" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3685" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3687" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3878:3913" ph="SELECT * FRO... Relative" />
           </folding>
         </state>
       </provider>
@@ -701,7 +685,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
@@ -733,22 +717,23 @@
           <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1526371611279" expanded="true" signature="1169:1207" ph="select * fro... Møder" />
-            <marker date="1526371611279" expanded="true" signature="1169:1217" ph="select * fro... v_event" />
-            <marker date="1526371611279" expanded="true" signature="1742:1780" ph="Delete from Students... " />
-            <marker date="1526371611279" expanded="true" signature="2213:2227" ph="select * fro... Møder" />
-            <marker date="1526371611279" expanded="true" signature="2213:2237" ph="select * fro... EventTable" />
-            <marker date="1526371611279" expanded="true" signature="2707:2761" ph="Update Møder... " />
-            <marker date="1526371611279" expanded="true" signature="2707:2822" ph="Update Møder... " />
-            <marker date="1526371611279" expanded="true" signature="2707:2879" ph="Update Møder... " />
-            <marker date="1526371611279" expanded="true" signature="2707:2974" ph="Update Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3405" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3406" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3491" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3538" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3574" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3576" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3767:3802" ph="SELECT * FRO... Relative" />
+            <marker date="1526385572520" expanded="true" signature="1169:1207" ph="select * fro... Møder" />
+            <marker date="1526385572520" expanded="true" signature="1169:1217" ph="select * fro... v_event" />
+            <marker date="1526385572520" expanded="true" signature="1742:1780" ph="Delete from Students... " />
+            <marker date="1526385572520" expanded="true" signature="1824:1864" ph="Delete from RelativeEvent... " />
+            <marker date="1526385572520" expanded="true" signature="2324:2338" ph="select * fro... Møder" />
+            <marker date="1526385572520" expanded="true" signature="2324:2348" ph="select * fro... EventTable" />
+            <marker date="1526385572520" expanded="true" signature="2818:2872" ph="Update Møder... " />
+            <marker date="1526385572520" expanded="true" signature="2818:2933" ph="Update Møder... " />
+            <marker date="1526385572520" expanded="true" signature="2818:2990" ph="Update Møder... " />
+            <marker date="1526385572520" expanded="true" signature="2818:3085" ph="Update Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3516" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3517" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3602" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3649" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3685" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3687" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3878:3913" ph="SELECT * FRO... Relative" />
           </folding>
         </state>
       </provider>
@@ -793,13 +778,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/style.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar!/org/springframework/ui/Model.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -898,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="65" lean-forward="false" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,62 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Event.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/EventDelete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/EventUpdate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/EventController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="74" column="42" lean-forward="true" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1368#1369#0" expanded="true" />
-            <element signature="e#1422#1423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/RelativeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="2" lean-forward="false" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/RelativeEventsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="49" column="2" lean-forward="true" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Interface/EventInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -980,21 +901,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Models/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-397">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#1218#1219#0" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Models/Relative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="e#837#838#0" expanded="true" />
             <element signature="e#869#870#0" expanded="true" />
@@ -1004,40 +914,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Models/ViewContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#472#473#0" expanded="true" />
             <element signature="e#500#501#0" expanded="true" />
             <element signature="e#541#542#0" expanded="true" />
             <element signature="e#575#576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Repository/EventRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1526371611279" expanded="true" signature="1169:1207" ph="select * fro... Møder" />
-            <marker date="1526371611279" expanded="true" signature="1169:1217" ph="select * fro... v_event" />
-            <marker date="1526371611279" expanded="true" signature="1742:1780" ph="Delete from Students... " />
-            <marker date="1526371611279" expanded="true" signature="2213:2227" ph="select * fro... Møder" />
-            <marker date="1526371611279" expanded="true" signature="2213:2237" ph="select * fro... EventTable" />
-            <marker date="1526371611279" expanded="true" signature="2707:2761" ph="Update Møder... " />
-            <marker date="1526371611279" expanded="true" signature="2707:2822" ph="Update Møder... " />
-            <marker date="1526371611279" expanded="true" signature="2707:2879" ph="Update Møder... " />
-            <marker date="1526371611279" expanded="true" signature="2707:2974" ph="Update Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3405" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3406" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3491" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3538" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3574" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3315:3576" ph="insert into Møder... " />
-            <marker date="1526371611279" expanded="true" signature="3767:3802" ph="SELECT * FRO... Relative" />
           </folding>
         </state>
       </provider>
@@ -1057,15 +941,117 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Repository/RelativeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="495">
+          <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1526371611226" expanded="true" signature="837:879" ph="select * fro... Pårørende" />
-            <marker date="1526371611226" expanded="true" signature="1013:1055" ph="SELECT * FRO... Pårørende" />
-            <marker date="1526371611226" expanded="true" signature="1295:1490" ph="insert into Relative... " />
-            <marker date="1526371611226" expanded="true" signature="1539:1580" ph="SELECT * FRO... Relative" />
-            <marker date="1526371611226" expanded="true" signature="1826:1867" ph="SELECT * FRO... Relative" />
+            <marker date="1526375557500" expanded="true" signature="795:837" ph="select * fro... Pårørende" />
+            <marker date="1526375557500" expanded="true" signature="971:1013" ph="SELECT * FRO... Pårørende" />
+            <marker date="1526375557500" expanded="true" signature="1253:1448" ph="insert into Relative... " />
+            <marker date="1526375557500" expanded="true" signature="1497:1538" ph="SELECT * FRO... Relative" />
+            <marker date="1526375557500" expanded="true" signature="1784:1825" ph="SELECT * FRO... Relative" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/RelativeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="38" column="2" lean-forward="false" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Models/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1421">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/RelativeEventsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/EventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/EventUpdate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/EventDelete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Repository/EventRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1526385572520" expanded="true" signature="1169:1207" ph="select * fro... Møder" />
+            <marker date="1526385572520" expanded="true" signature="1169:1217" ph="select * fro... v_event" />
+            <marker date="1526385572520" expanded="true" signature="1742:1780" ph="Delete from Students... " />
+            <marker date="1526385572520" expanded="true" signature="1824:1864" ph="Delete from RelativeEvent... " />
+            <marker date="1526385572520" expanded="true" signature="2324:2338" ph="select * fro... Møder" />
+            <marker date="1526385572520" expanded="true" signature="2324:2348" ph="select * fro... EventTable" />
+            <marker date="1526385572520" expanded="true" signature="2818:2872" ph="Update Møder... " />
+            <marker date="1526385572520" expanded="true" signature="2818:2933" ph="Update Møder... " />
+            <marker date="1526385572520" expanded="true" signature="2818:2990" ph="Update Møder... " />
+            <marker date="1526385572520" expanded="true" signature="2818:3085" ph="Update Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3516" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3517" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3602" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3649" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3685" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3426:3687" ph="insert into Møder... " />
+            <marker date="1526385572520" expanded="true" signature="3878:3913" ph="SELECT * FRO... Relative" />
           </folding>
         </state>
       </provider>

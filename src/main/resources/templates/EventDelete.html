@@ -11,7 +11,7 @@
 </head>
     <body>
     <h2>Er du sikker på at du vil slette mødet</h2>
-    <form action="#" th:action="@{/delete}" method="post" >
+    <form action="#" th:action="@{/event/delete}" method="post" >
         <p th:text="${Event.time}"></p>
         <input type="hidden"  th:field="${Event.eventID}"  />
         <input type="submit" value="YES" class="btn btn-del w"/>

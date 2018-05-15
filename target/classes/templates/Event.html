@@ -6,13 +6,19 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <link type="text/css" href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet"
-          title="Default Styles" media="screen">
+
+    <link type="text/css" href="../style.css" rel="stylesheet"/>
     <title>Title</title>
 
 </head>
 <body>
+<nav><div class="nav">
+    <a href="/event">Hej</a>
+
+</div>
+</nav>
+
+
 
     <table>
 
@@ -22,15 +28,26 @@
             <th>Tid</th>
             <th>Beskrivelse</th>
             <th>Pladser</th>
+            <th>Indstillinger</th>
 
         </tr>
         </thead>
         <tbody>
+        <p></p>
+        <a href="/event/create" type="button" class="btn btn-create">Opret</a>
+        <p></p>
             <tr th:each="Event : ${Events}">
                 <td th:text="${Event.date}"></td>
                 <td th:text="${Event.time}"></td>
                 <td th:text="${Event.description}"></td>
                 <td th:text="${Event.slots}"></td>
+
+                    <td>
+                    <a th:href="${'/event/details?id='+Event.geteventID()}" type="button" class="btn btn-details">Details</a>
+                    <a th:href="${'/event/update?id='+Event.geteventID()}" type="button" class="btn btn-update">Opdater</a>
+                        <a th:href="${'/event/delete?id='+Event.geteventID()}" type="button" class="btn btn-del">Slet</a>
+                </td>
+
              </tr>
         </tbody>
     </table>
