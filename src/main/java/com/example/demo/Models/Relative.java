@@ -1,18 +1,8 @@
 package com.example.demo.Models;
 
+//Klasse som definerer objektet relative
 public class Relative {
-    @Override
-    public String toString() {
-        return "Relative{" +
-                "relatedID=" + relatedID +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
-                ", phoneNumber=" + phoneNumber +
-                ", addictID=" + addictID +
-                '}';
-    }
-
+    //Attributes
     private int relatedID;
     private String firstName;
     private String lastName;
@@ -20,7 +10,7 @@ public class Relative {
     private int phoneNumber;
     private int addictID;
 
-
+    //Constructor til klassen Relative som bruger ovenstående attributes som parametre
     public Relative(int relatedID, String firstName, String lastName, String email, int phoneNumber, int addictID) {
         this.relatedID = relatedID;
         this.firstName = firstName;
@@ -28,14 +18,14 @@ public class Relative {
         this.email = email;
         this.phoneNumber = phoneNumber;
         this.addictID = addictID;
-
     }
 
+    //Tom constructor til relative klassen
     public Relative()
     {
-
     }
 
+    //Getters and setters
     public int getRelatedID() {
         return relatedID;
     }
@@ -83,4 +73,5 @@ public class Relative {
     public void setAddictID(int addictID) {
         this.addictID = addictID;
     }
+
 }

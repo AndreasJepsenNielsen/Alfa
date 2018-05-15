@@ -10,7 +10,7 @@
     <title>details</title>
 </head>
     <body>
-    <h2>Er du sikker på at du vil sletter mødet</h2>
+    <h2>Er du sikker på at du vil slette mødet</h2>
     <form action="#" th:action="@{/delete}" method="post" >
         <p th:text="${Event.time}"></p>
         <input type="hidden"  th:field="${Event.eventID}"  />
