@@ -8,16 +8,14 @@ public class Relative {
     private String lastName;
     private String email;
     private int phoneNumber;
-    private int addictID;
 
     //Constructor til klassen Relative som bruger ovenstående attributes som parametre
-    public Relative(int relatedID, String firstName, String lastName, String email, int phoneNumber, int addictID) {
+    public Relative(int relatedID, String firstName, String lastName, String email, int phoneNumber) {
         this.relatedID = relatedID;
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.phoneNumber = phoneNumber;
-        this.addictID = addictID;
     }
 
     //Tom constructor til relative klassen
@@ -66,12 +64,5 @@ public class Relative {
         this.phoneNumber = phoneNumber;
     }
 
-    public int getAddictID() {
-        return addictID;
-    }
-
-    public void setAddictID(int addictID) {
-        this.addictID = addictID;
-    }
 
 }

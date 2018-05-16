@@ -29,6 +29,7 @@ public class EventController {
     public String getDetails(@RequestParam("id") int id, Model model)
     {
         model.addAttribute("Event", eventRepository.getSpecific(id));
+        
         return "EventRead";
     }
 

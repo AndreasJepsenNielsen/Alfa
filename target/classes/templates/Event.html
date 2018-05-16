@@ -7,20 +7,41 @@
 <head>
 
 
-    <link type="text/css" href="../style.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/4.1.0/css/bootstrap.css" />
     <title>Title</title>
 
 </head>
 <body>
-<nav><div class="nav">
-    <a href="/event">Hej</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary"  style="height: 14px">
 
-</div>
+    <a class="navbar-brand" href="#">Navbar</a>
+    <a href="mailto:sikkerpost@alfakbh.dk" style="color: white">sikkerpost@alfakbh.dk</a>
+    <div class="collapse navbar-collapse" id="navbarColor03">
+
+    </div>
 </nav>
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://www.alfakbh.dk/"><img src="https://www.alfakbh.dk/wp-content/uploads/2018/05/alfa-copenhagen-logo-300x134.png" width="72" height="42"></a>
 
-
-    <table>
+    <div class="navbar" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <table class="table-bordered table">
 
         <thead>
         <tr>
@@ -34,7 +55,7 @@
         </thead>
         <tbody>
         <p></p>
-        <a href="/event/create" type="button" class="btn btn-create">Opret</a>
+        <a href="/event/create" type="button" class="btn">Opret</a>
         <p></p>
             <tr th:each="Event : ${Events}">
                 <td th:text="${Event.date}"></td>
@@ -43,10 +64,11 @@
                 <td th:text="${Event.slots}"></td>
 
                     <td>
-                    <a th:href="${'/event/details?id='+Event.geteventID()}" type="button" class="btn btn-details">Details</a>
-                    <a th:href="${'/event/update?id='+Event.geteventID()}" type="button" class="btn btn-update">Opdater</a>
-                        <a th:href="${'/event/delete?id='+Event.geteventID()}" type="button" class="btn btn-del">Slet</a>
-                </td>
+                    <a th:href="${'/event/details?id='+Event.geteventID()}" type="button" class="btn">Details</a>
+                    <a th:href="${'/event/update?id='+Event.geteventID()}" type="button" class="btn">Opdater</a>
+                        <a th:href="${'/event/delete?id='+Event.geteventID()}" type="button" class="btn">Slet</a>
+                        <a th:href="${'/event/add?idEv='+Event.geteventID()}" type="button" class="btn">Tilmeld</a>
+                    </td>
 
              </tr>
         </tbody>

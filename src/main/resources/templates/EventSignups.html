@@ -11,15 +11,14 @@
     <title>details</title>
 </head>
 
-    <body>
-    <h1>Details</h1>
-    <p th:text="'dato: ' + ${Event.date}"/>
-    <p th:text="'tid: ' + ${Event.time}"/>
-    <p th:text="'beskrivelse: ' + ${Event.description}"/>
-    <p th:text="'pladser: ' + ${Event.slots}"/>
+<body>
+<h1>Details</h1>
+<tr th:each="Event : ${Events}">
+    <td th:text="${Event.date}"></td>
+</tr>
 
 
 
-    </body>
+</body>
 
 </html>

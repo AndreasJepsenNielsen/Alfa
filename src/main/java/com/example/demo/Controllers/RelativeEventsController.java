@@ -47,6 +47,7 @@ public class RelativeEventsController {
         return "redirect:/event/";
     }
 
+
 /*
     @PostMapping("/event/addtodb")
     public String addToDB(@ModelAttribute Relative rv, @ModelAttribute Event event) {
