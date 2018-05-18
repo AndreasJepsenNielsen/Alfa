@@ -1,24 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xlmns:th="http://www.thymeleaf.org"
       xmlns:xlmns="http://www.w3.org/1999/xhtml">
 
-<nav>
-</nav>
+
 
 <head>
     <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/4.1.0/css/bootstrap.css" />
-    <title>create</title>
+    <title>details</title>
 </head>
+
 <body>
+<h1>Details</h1>
+<p th:text="'Fornavn: ' + ${Relative.firstName}"/>
+<p th:text="'Efternavn: ' + ${Relative.lastName}"/>
+<p th:text="'Email: ' + ${Relative.email}"/>
+<p th:text="'Telefonnummer: ' + ${Relative.phoneNumber}"/>
 
 
-<form method="POST" th:action="@{/event/create}">
-    <p>Indtast mødeID</p>
-
-
-    <input   type="submit"   value="Send"   />
-</form>
 
 </body>
+
 </html>

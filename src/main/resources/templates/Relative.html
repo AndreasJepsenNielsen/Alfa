@@ -39,38 +39,37 @@
         </ul>
     </div>
 </nav>
-    <table class="table-bordered table">
+<table class="table-bordered table">
 
-        <thead>
-        <tr>
-            <th>Dato</th>
-            <th>Tid</th>
-            <th>Beskrivelse</th>
-            <th>Pladser</th>
-            <th>Indstillinger</th>
+    <thead>
+    <tr>
+        <th>Fornavn</th>
+        <th>Efternavn</th>
+        <th>Email</th>
+        <th>Telefonnummer</th>
+        <th>Indstillinger</th>
 
-        </tr>
-        </thead>
-        <tbody>
-        <p></p>
-        <a href="/event/create" type="button" class="btn">Opret</a>
-        <p></p>
-            <tr th:each="Event : ${Events}">
-                <td th:text="${Event.date}"></td>
-                <td th:text="${Event.time}"></td>
-                <td th:text="${Event.description}"></td>
-                <td th:text="${Event.slots}"></td>
+    </tr>
+    </thead>
+    <tbody>
+    <p></p>
+    <a href="/relative/create" type="button" class="btn">Opret</a>
+    <p></p>
+    <tr th:each="Relative : ${Relatives}">
+        <td th:text="${Relative.firstName}"></td>
+        <td th:text="${Relative.lastName}"></td>
+        <td th:text="${Relative.email}"></td>
+        <td th:text="${Relative.phoneNumber}"></td>
 
-                    <td>
-                    <a th:href="${'/event/details?id='+Event.geteventID()}" type="button" class="btn">Details</a>
-                    <a th:href="${'/event/update?id='+Event.geteventID()}" type="button" class="btn">Opdater</a>
-                        <a th:href="${'/event/delete?id='+Event.geteventID()}" type="button" class="btn">Slet</a>
-                        <a th:href="${'/event/add?idEv='+Event.geteventID()}" type="button" class="btn">Tilmeld</a>
-                    </td>
+        <td>
+            <a th:href="${'/relative/update?id='+Relative.getRelatedID()}" type="button" class="btn">Opdater</a>
+            <a th:href="${'/relative/delete?id='+Relative.getRelatedID()}" type="button" class="btn">Slet</a>
+            <a th:href="${'/relative/details?id='+Relative.getRelatedID()}" type="button" class="btn">Details</a>
+        </td>
 
-             </tr>
-        </tbody>
-    </table>
+    </tr>
+    </tbody>
+</table>
 </body>
 
 </html>

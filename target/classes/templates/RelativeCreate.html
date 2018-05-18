@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xlmns:th="http://www.thymeleaf.org"
+      xmlns:xlmns="http://www.w3.org/1999/xhtml">
+
 <head>
     <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/4.1.0/css/bootstrap.css" />
-    <title>Tilmeldings form</title>
+    <title>createRelative</title>
 </head>
 <body>
-<form method="POST" th:action="@{/event/add}">
+
+
+<form method="POST" th:action="@{/relative/create}">
     <input type="hidden" th:field=" ${Relative.relatedID}"/></br>
     <p>Indtast Fornavn</p>
     <input   type="text" th:field="${Relative.firstName}"   />
     <p>Indtast Efternavn</p>
-    <input   type="text"   th:field="${Relative.lastName}"/>
+    <input   type="text" th:field="${Relative.lastName}"   />
+    <p>Indtast Email</p>
+    <input type="text" th:field="${Relative.email}"/>
     <p>Indtast Telefonnummer</p>
     <input type="text" th:field="${Relative.phoneNumber}"/>
-    <p>Indtast Email</p>
-    <input   type="text"   th:field="${Relative.email}"/><br>
 
-    <input   type="submit"   value="Tilmeld"   />
+    <input   type="submit"   value="Opret"   />
 </form>
 
 </body>

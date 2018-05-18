@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xlmns:th="http://www.thymeleaf.org"
+      xmlns:xlmns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/4.1.0/css/bootstrap.css" />
+    <title>Delete</title>
+</head>
+<body>
+<h2>Er du sikker på at du vil slette mødet</h2>
+<form action="#" th:action="@{/relative/delete}" method="post" >
+    <p th:text="${Relative.phoneNumber}"></p>
+    <input type="hidden"  th:field="${Relative.relatedID}"  />
+    <input type="submit" value="YES" class="btn btn-del w"/>
+    <a href="/relative" class="btn btn-create w" >NO</a>
+</form>
+</body>
+</html>
