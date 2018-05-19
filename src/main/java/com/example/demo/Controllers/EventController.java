@@ -1,5 +1,6 @@
 package com.example.demo.Controllers;
 
+import com.example.demo.Models.ArrearsContainer;
 import com.example.demo.Models.Event;
 import com.example.demo.Repository.EventRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +17,8 @@ public class EventController {
     //Instantiering af EventRepository
     @Autowired
     private EventRepository eventRepository = new EventRepository();
+    @Autowired
+    ArrearsContainer arrearsContainer;
 
     //Metoder der får listen med alle Events
     @GetMapping("/event")
@@ -85,6 +88,13 @@ public class EventController {
     public String update(@ModelAttribute Event ev) {
         eventRepository.update(ev);
         return "redirect:/event";
+    }
+
+    @GetMapping("event/arrears")
+    public String getArrears(Model model)
+    {
+        model.addAttribute("Relatives", eventRepository.getComparison());
+        return "EventArrears";
     }
 
   /*  Event getEvents(Event event){

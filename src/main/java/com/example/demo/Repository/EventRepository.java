@@ -2,6 +2,7 @@ package com.example.demo.Repository;
 
 import com.example.demo.Interface.EventInterface;
 import com.example.demo.Models.Event;
+import com.example.demo.Models.Relative;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 import org.springframework.stereotype.Repository;
@@ -31,6 +32,28 @@ public class EventRepository implements EventInterface {
         Event ev = new Event(rs.getInt(1), rs.getDate(2), rs.getString(3), rs.getString(4), rs.getInt(5));
 
         return ev;
+    }
+
+    public List<Relative> getComparison()
+    {
+        List<Relative> listOfArrears = new ArrayList<>();
+
+
+        String sql = "SELECT *\n" +
+                "FROM Relative as r\n" +
+                "WHERE r.relativeID not IN (select relativeID from Addict);";
+
+        SqlRowSet rs = jdbc.queryForRowSet(sql);
+
+        while (rs.next())
+        {
+         listOfArrears.add(new Relative(rs.getInt(1),rs.getString(2),rs.getString(3),rs.getString(4),rs.getInt(5)));
+            System.out.println("FOund Oliver");
+        }
+
+
+
+        return listOfArrears;
     }
 
     //Metode som overrider interface metoden med samme navn, sletter det givne event som indeholder det pågældende id fra databasen

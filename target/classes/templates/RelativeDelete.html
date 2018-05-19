@@ -39,11 +39,12 @@
 <div class="container">
 <h2>Er du sikker på at du vil slette den pårørende</h2>
 <form action="#" th:action="@{/relative/delete}" method="post" >
-    <p th:text="${Relative.phoneNumber}"></p>
+    <p th:text="${Relative.firstName} + ' ' + ${Relative.lastName}"></p>
     <input type="hidden"  th:field="${Relative.relatedID}"  />
-    <input type="submit" value="YES" class="btn-success" />
-    <a href="/relative" type="button" class="btn" >NO</a>
-</div>
+    <button class="btn btn-success" type="submit">JA</button>
+    <a href="/relative"><button type="button" class="btn btn-danger" >NEJ</button></a>
 </form>
+</div>
+
 </body>
 </html>

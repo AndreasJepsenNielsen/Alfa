@@ -12,12 +12,22 @@ import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * RelativeRepository
+ * @ref EventRepository
+ * @Documentation for methods with no comments is in above referenced class
+ */
 @Repository
 public class RelativeRepository implements RelativeInterface
 {
     @Autowired
     private JdbcTemplate jdbc;
 
+    /**
+     * blaalsdas
+     * @param rs
+     * @return Relative
+     */
     private Relative generateRelative (SqlRowSet rs)
     {
         return new Relative(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getInt(5));

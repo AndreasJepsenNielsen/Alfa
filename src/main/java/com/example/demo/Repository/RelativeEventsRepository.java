@@ -26,25 +26,5 @@ public class RelativeEventsRepository {
             jdbc.update(sql);
 
     }
-/*
-   public List<String> getEventRelatives(int evId){
-
-       List<String> signups = new ArrayList<>();
-
-       String sql = "select Relative.firstName, Relative.lastName " +
-               "from Relative, RelativeEvent, EventTable " +
-               "where Relative.relativeID = RelativeEvent.relativeID " +
-               "and " + evId + " = RelativeEvent.eventID";
-
-       SqlRowSet rs = jdbc.queryForRowSet(sql);
-
-       while (rs.next()){
-           signups.add(rs.getString(1) + " " + rs.getString(2));
-       }
-
-     return signups;
-
-    }
-    */
 
 }

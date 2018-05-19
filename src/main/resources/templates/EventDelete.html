@@ -42,8 +42,8 @@
     <form action="#" th:action="@{/event/delete}" method="post" >
         <p th:text="${Event.time}"></p>
         <input type="hidden"  th:field="${Event.eventID}"  />
-        <input type="submit" value="YES" class="button"/>
-        <a href="/event" class="button" >NO</a>
+        <button class="btn btn-success" type="submit">JA</button>
+        <a href="/event"><button type="button" class="btn btn-danger" >NEJ</button></a>
     </form>
     </div>
     </body>

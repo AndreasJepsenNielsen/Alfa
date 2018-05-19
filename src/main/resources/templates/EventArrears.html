@@ -1,8 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xlmns:th="http://www.thymeleaf.org"
       xmlns:xlmns="http://www.w3.org/1999/xhtml">
-
+<head>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/4.1.0/css/bootstrap.css" />
+    <title>Title</title>
+</head>
+<body>
+<body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary"  style="height: 31px">
 
     <a class="navbar-brand" href="#"></a>
@@ -31,29 +35,32 @@
 
     </div>
 </nav>
+<div class="container">
+    <table class="table-bordered table">
+        <h1>Liste over pårørende som skal betale</h1>
+        <thead>
+        <tr>
+            <th>Fornavn</th>
+            <th>Efternavn</th>
+            <th>Email</th>
+            <th>Telefonnummer</th>
 
-<head>
-    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/4.1.0/css/bootstrap.css" />
-    <title>create</title>
-</head>
-<body>
+        </tr>
+        </thead>
+        <tbody>
+        <p></p>
+        <p></p>
+        <tr th:each="Relative : ${Relatives}">
+            <td th:text="${Relative.firstName}"></td>
+            <td th:text="${Relative.lastName}"></td>
+            <td th:text="${Relative.email}"></td>
+            <td th:text="${Relative.phoneNumber}"></td>
 
-    <div class="container">
-    <form method="POST" th:action="@{/event/create}">
-        <div class="form-group">
-        <input type="hidden" th:field=" ${Event.eventID}"/></br>
-        <p>Indtast Dato</p>
-        <input   type="date" th:field="${Event.date}"   />
-        <p>Indtast tidspunkt</p>
-        <input   type="text"   th:field="${Event.time}"/></div>
-        <p>Indtast møde beskrivelse</p>
-        <input type="text" th:field="${Event.description}"/>
 
-        <p>Indtast møde pladser</p>
-        <input   type="text"   th:field="${Event.slots}"/>
-
-        <input   type="submit"   value="Send"   />
-    </form>
-    </div>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
 </body>
 </html>
