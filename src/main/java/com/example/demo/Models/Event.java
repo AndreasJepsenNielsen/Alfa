@@ -1,12 +1,14 @@
 package com.example.demo.Models;
 
-import org.springframework.beans.factory.annotation.Required;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-//Klasse som definerer objektet "Event"
+
+/**
+ * Klasse som definerer objektet Event
+ */
 public class Event {
     //Attributes
     private int eventID;
@@ -18,7 +20,16 @@ public class Event {
     private String description;
     private int slots;
 
-    //Constructor til klassen Event som medtager ovenstående attributes som parametre
+
+
+    /**
+     * Constructor til Klassen Event
+     * @param eventID
+     * @param date
+     * @param time
+     * @param description
+     * @param slots
+     */
     public Event(int eventID, Date date, String time, String description, int slots) {
         this.eventID = eventID;
         this.date = date;
@@ -27,12 +38,19 @@ public class Event {
         this.slots = slots;
     }
 
-    // Tom constructor som medtager ingen parametre
+    /**
+     * Tom Constructor
+     */
     public Event()
     {
     }
 
     //Metode til at formatere vores date til det rigtige format som sql tager imod
+
+    /**
+     * Metode til at formatere vores java.util.date til et format som Sql modtager.
+     * @return String
+     */
     public String getDateString()
     {
         DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");

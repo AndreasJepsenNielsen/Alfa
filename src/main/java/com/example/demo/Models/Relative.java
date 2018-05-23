@@ -1,6 +1,8 @@
 package com.example.demo.Models;
 
-//Klasse som definerer objektet relative
+/**
+ * Klasse som definerer objektet relative
+ */
 public class Relative {
     //Attributes
     private int relatedID;
@@ -9,16 +11,28 @@ public class Relative {
     private String email;
     private int phoneNumber;
 
-    //Constructor til klassen Relative som bruger ovenstående attributes som parametre
+
+    /**
+     * Constructor til klassen Relative som bruger ovenstående attributes som parametre
+     * @param relatedID
+     * @param firstName
+     * @param lastName
+     * @param email
+     * @param phoneNumber
+     */
     public Relative(int relatedID, String firstName, String lastName, String email, int phoneNumber) {
         this.relatedID = relatedID;
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.phoneNumber = phoneNumber;
+
     }
 
-    //Tom constructor til relative klassen
+
+    /**
+     * Tom constructor til relative klassen
+     */
     public Relative()
     {
     }

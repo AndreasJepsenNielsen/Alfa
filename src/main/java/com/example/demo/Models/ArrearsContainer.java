@@ -6,8 +6,20 @@ import org.springframework.stereotype.Service;
 @Component
 @Service
 public class ArrearsContainer {
+    /**
+     * Instantiering af Relative klassen
+     */
     private Relative relative;
 
+    /**
+     * Tom Constructor
+     */
+    public ArrearsContainer()
+    {
+
+    }
+
+    //getters and setters
     public Relative getRelative() {
         return relative;
     }
@@ -16,10 +28,6 @@ public class ArrearsContainer {
         this.relative = relative;
     }
 
-    public ArrearsContainer()
-    {
-
-    }
 
 
 }

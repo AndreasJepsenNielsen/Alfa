@@ -1,10 +1,12 @@
 package com.example.demo.Interface;
 
-import com.example.demo.Models.Event;
-import com.example.demo.Models.Relative;
 
 import java.util.List;
 
+/**
+ * SuperInterface tager imod generic type <T>
+ * @param <T>
+ */
 public interface AlfaInterface <T>
 {
     T getSpecific(int id);

@@ -44,6 +44,7 @@
     <div class="container">
     <form method="Post" th:action="@{/event/update}">
         <input type="hidden" th:field="${Event.eventID}"><br>
+
         <p>Indtast dato</p>
 
         <input required  type="date"   th:field="${Event.date}"/>
@@ -55,6 +56,7 @@
         <input  required type="text"   th:field="${Event.slots}"/><br>
         <input   type="submit"   value="Opdater"   />
     </form>
+    </div>
     </body>
-</div>
+
 </html>

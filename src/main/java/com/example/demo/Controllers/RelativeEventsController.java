@@ -12,21 +12,34 @@ import javax.annotation.Resource;
 
 @Controller
 public class RelativeEventsController {
-    //Instantiering af RelativeEventsRepository
+    /**
+     * Instantiering af RelativeEventsRepository
+     */
     @Autowired
     private RelativeEventsRepository relativeEventsRepository;
-    //Instantiering af RelativeController
+    /**
+     * Instantiering af RelativeController
+     */
     @Autowired
     RelativeController relativeController = new RelativeController();
-    //Instantiering af viewContainer som indeholder data for vores Event
+    /**
+     * Instantiering af viewContainer som indeholder data for vores Event
+     */
     @Resource
     ViewContainer viewContainer;
-    //Instantiering af Eventcontroller
+    /**
+     * Instantiering af Eventcontroller
+     */
     @Autowired
     EventController eventController = new EventController();
 
-    //En metode som henter formen til at tilføje en relative til et event, den indeholder også vores viewContainer som
-    //holder på vores Event så det kan bruges i nedenstående metode
+    /**
+     * En metode som henter formen til at tilføje en relative til et event, den indeholder også vores viewContainer som
+     * holder på vores Event så det kan bruges i nedenstående metode
+     * @param idEv
+     * @param model
+     * @return EventForm.html
+     */
     @GetMapping("/event/add")
     public String addToEvent(@RequestParam("idEv") int idEv, Model model) {
         viewContainer.setEvent(eventController.getDetails(idEv));
@@ -36,11 +49,13 @@ public class RelativeEventsController {
         return "EventForm";
     }
 
-    //Metode tilføjer dataen som er indskrevet i ovenstående metode til databasen
+    /**
+     * Metode tilføjer dataen som er indskrevet i ovenstående metode til databasen
+     * @param rv
+     * @return Event.html
+     */
     @PostMapping("/event/add")
     public String addToDb(@ModelAttribute Relative rv){
-        System.out.println(viewContainer.getEvent());
-        System.out.println(rv);
         Relative r = relativeController.relativeRepository.createNewRelative(rv);
         relativeEventsRepository.addToEvent(r.getRelatedID(), viewContainer.getEvent().geteventID());
 
@@ -48,14 +63,7 @@ public class RelativeEventsController {
     }
 
 
-/*
-    @PostMapping("/event/addtodb")
-    public String addToDB(@ModelAttribute Relative rv, @ModelAttribute Event event) {
-            relativeEventsRepository.addToEvent(rv, event);
 
-            return "redirect:/event";
-    }
-*/
 
 
 }

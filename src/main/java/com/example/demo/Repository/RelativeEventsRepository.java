@@ -8,14 +8,24 @@ import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.List;
 
-//Repository til RelativeEvent bruges som en mellem klasse mellem relative og Events
+/**
+ * Repository til RelativeEvent bruges som en mellem klasse mellem relative og Events
+ */
 @Repository
 public class RelativeEventsRepository {
-    //Instantiering af jdbc template
+    /**
+     * Instantiering af jdbc template
+     */
     @Autowired
     private JdbcTemplate jdbc;
 
-    //En metode som tilføjer en relativeId og eventId til Sql databasen
+
+
+    /**
+     * En metode som tilføjer et relativeId og eventId til tabellen RelativeEvents i Sql databasen
+     * @param rvId
+     * @param evId
+     */
     public void addToEvent(int rvId, int evId)
     {
         String sql = "insert into RelativeEvent(relativeID,eventID) " +
