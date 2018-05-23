@@ -65,9 +65,10 @@
         <td th:text="${Relative.phoneNumber}"></td>
 
         <td>
+            <a th:href="${'/relative/details?id='+Relative.getRelatedID()}" type="button" class="btn">Detaljer</a>
             <a th:href="${'/relative/update?id='+Relative.getRelatedID()}" type="button" class="btn">Opdater</a>
             <a th:href="${'/relative/delete?id='+Relative.getRelatedID()}" type="button" class="btn">Slet</a>
-            <a th:href="${'/relative/details?id='+Relative.getRelatedID()}" type="button" class="btn">Details</a>
+
         </td>
 
     </tr>

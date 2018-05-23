@@ -1,5 +1,6 @@
 package com.example.demo.Models;
 
+import org.springframework.beans.factory.annotation.Required;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.text.DateFormat;
@@ -10,6 +11,7 @@ public class Event {
     //Attributes
     private int eventID;
     //Beskriver formatet for date så det kan indskrives i sql databasen
+
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date date;
     private String time;

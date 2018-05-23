@@ -79,6 +79,8 @@ public class RelativeRepository implements RelativeInterface
     public void delete(Relative rv)
     {
         String sql = "Delete from Relative where relativeID =" + rv.getRelatedID();
+        String sql2 = "Delete from RelativeEvent where relativeID=" + rv.getRelatedID();
+        jdbc.update(sql2);
         jdbc.update(sql);
     }
 

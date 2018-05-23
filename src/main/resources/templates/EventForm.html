@@ -39,20 +39,21 @@
 </nav>
 
 <div class="container">
-<form method="POST" th:action="@{/event/add}">
+<form method="POST" th:action="@{/event/add}" onsubmit="alert('Møde Tilmeldt')">
     <input type="hidden" th:field=" ${Relative.relatedID}"/></br>
     <p>Indtast Fornavn</p>
-    <input   type="text" th:field="${Relative.firstName}"   />
+    <input required type="text" th:field="${Relative.firstName}"   />
     <p>Indtast Efternavn</p>
-    <input   type="text"   th:field="${Relative.lastName}"/>
+    <input required  type="text"   th:field="${Relative.lastName}"/>
     <p>Indtast Telefonnummer</p>
-    <input type="text" th:field="${Relative.phoneNumber}"/>
+    <input required type="text" th:field="${Relative.phoneNumber}"/>
     <p>Indtast Email</p>
-    <input   type="text"   th:field="${Relative.email}"/><br>
+    <input  required type="text"   th:field="${Relative.email}"/><br>
 
     <input   type="submit"   value="Tilmeld"   />
 </form>
 </div>
+
 
 </body>
 </html>

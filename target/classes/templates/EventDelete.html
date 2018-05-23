@@ -43,7 +43,7 @@
     <div class="container">
     <h2>Er du sikker på at du vil slette mødet</h2>
     <form action="#" th:action="@{/event/delete}" method="post" >
-        <p th:text="${Event.time}"></p>
+        <p th:text="${Event.Date} +  ' ' +  ${Event.time} "></p>
         <input type="hidden"  th:field="${Event.eventID}"  />
         <button class="btn btn-success" type="submit">JA</button>
         <a href="/event"><button type="button" class="btn btn-danger" >NEJ</button></a>

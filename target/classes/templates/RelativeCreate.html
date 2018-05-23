@@ -39,20 +39,20 @@
 
     </div>
 </nav>
-
+<div class="container">
 <form method="POST" th:action="@{/relative/create}">
     <input type="hidden" th:field=" ${Relative.relatedID}"/></br>
     <p>Indtast Fornavn</p>
-    <input   type="text" th:field="${Relative.firstName}"   />
+    <input  required type="text" th:field="${Relative.firstName}"   />
     <p>Indtast Efternavn</p>
-    <input   type="text" th:field="${Relative.lastName}"   />
+    <input  required type="text" th:field="${Relative.lastName}"   />
     <p>Indtast Email</p>
-    <input type="text" th:field="${Relative.email}"/>
+    <input required type="text" th:field="${Relative.email}"/>
     <p>Indtast Telefonnummer</p>
-    <input type="text" th:field="${Relative.phoneNumber}"/>
+    <input required type="text" th:field="${Relative.phoneNumber}"/>
 
     <input   type="submit"   value="Opret"   />
 </form>
-
+</div>
 </body>
 </html>
