@@ -1,0 +1,14 @@
+com/example/demo/Repository/RelativeRepository.class
+com/example/demo/Repository/RelativeEventsRepository.class
+com/example/demo/Controllers/EventController.class
+com/example/demo/DemoApplication.class
+com/example/demo/Interface/EventInterface.class
+com/example/demo/Controllers/RelativeController.class
+com/example/demo/Models/Event.class
+com/example/demo/Controllers/RelativeEventsController.class
+com/example/demo/Models/ViewContainer.class
+com/example/demo/Interface/RelativeInterface.class
+com/example/demo/Repository/EventRepository.class
+com/example/demo/Models/Relative.class
+com/example/demo/Models/ArrearsContainer.class
+com/example/demo/Interface/AlfaInterface.class

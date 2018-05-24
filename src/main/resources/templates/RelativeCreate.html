@@ -40,7 +40,7 @@
     </div>
 </nav>
 <div class="container">
-<form method="POST" th:action="@{/relative/create}">
+<form method="POST" th:action="@{/relative/create}" onsubmit="alert('Pårørende Oprettet')">
     <input type="hidden" th:field=" ${Relative.relatedID}"/></br>
     <p>Indtast Fornavn</p>
     <input  required type="text" th:field="${Relative.firstName}"   />
